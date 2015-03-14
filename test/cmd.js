@@ -3,8 +3,34 @@
  */
 
 var expect = require('chai').expect;
-var isURL = require('../lib/extract').isURL;
-var isSSH = require('../lib/extract').isSSH;
+var ext = require('../lib/extract');
+var extract = ext.extract;
+var fs = require('fs-extra');
+var isURL = ext.isURL;
+var isSSH = ext.isSSH;
+var path = require('path');
+
+describe('extract(1)', function() {
+
+  var cwd;
+
+  before(function(done) {
+    cwd = process.cwd();
+    extract('creaturephil/alpha', cwd, 'server.js', function() {
+      done();
+    });
+  });
+
+  it('should have a file', function(done) {
+    fs.exists(path.join(cwd, 'server.js'), function(exists) {
+      expect(exists).to.be.equal(true);
+      fs.remove(cwd + '/server.js', function() {
+        done();
+      });
+    });
+  });
+
+});
 
 describe('isUrl', function() {
 
