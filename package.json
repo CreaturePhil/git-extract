@@ -8,7 +8,7 @@
     "url": "https://github.com/CreaturePhil/git-extract/issues"
   },
   "scripts": {
-    "test": "grunt",
+    "test": "grunt"
   },
   "keywords": [
     "extract",
