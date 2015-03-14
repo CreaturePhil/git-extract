@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "grunt && mocha --reporter=spec --timeout=10000",
-    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec --timeout=10000 && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec --timeout=10000 && rm -rf ./coverage"
   },
   "keywords": [
     "extract",
