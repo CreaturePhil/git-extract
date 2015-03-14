@@ -1,6 +1,5 @@
 # [git-extract](https://www.npmjs.com/package/git-extract)
 [![NPM Version](https://img.shields.io/npm/v/git-extract.svg)](https://www.npmjs.org/package/git-extract)
-[![NPM Downloads](https://img.shields.io/npm/dm/git-extract.svg)](https://www.npmjs.org/package/git-extract)
 [![Build Status](https://travis-ci.org/CreaturePhil/git-extract.svg)](https://travis-ci.org/CreaturePhil/git-extract)
 [![Dependency Status](https://david-dm.org/CreaturePhil/git-extract.svg)](https://david-dm.org/CreaturePhil/git-extract) 
 [![devDependency Status](https://david-dm.org/CreaturePhil/git-extract/dev-status.svg)](https://david-dm.org/CreaturePhil/git-extract#info=devDependencies)

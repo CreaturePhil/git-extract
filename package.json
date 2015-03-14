@@ -1,14 +1,15 @@
 {
   "name": "git-extract",
   "version": "0.1.0",
-  "description": "Extract certain files or folders from a git repository on Github.",
+  "description": "Extract files or folders from a Git repository.",
   "author": "Philip La <birkal@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CreaturePhil/git-extract/issues"
   },
   "scripts": {
-    "test": "grunt && mocha --reporter=spec --timeout=10000"
+    "test": "grunt && mocha --reporter=spec --timeout=10000",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --timeout=10000"
   },
   "keywords": [
     "extract",
