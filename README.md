@@ -5,7 +5,7 @@ Extract certain files or folders from a git repository on Github.
 ## Installation
 
 ```bash
-$ npm install git-extract -g
+$ npm install -g git-extract
 ```
 
 ## Usage
