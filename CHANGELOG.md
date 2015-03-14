@@ -4,6 +4,7 @@
   * Add JSHint
   * Add Travis CI
   * Fix issue where if a file already exists, it doesn't remove the repository
+  * Add tests
 
 0.1.0 / 2015-3-13
 =================

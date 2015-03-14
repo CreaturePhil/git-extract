@@ -7,7 +7,7 @@
  */
  
 var chalk = require('chalk');
-var extract = require('../lib/extract');
+var extract = require('../lib/extract').extract;
 var program = require('commander');
 
 program
