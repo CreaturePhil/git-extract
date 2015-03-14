@@ -8,8 +8,9 @@
     "url": "https://github.com/CreaturePhil/git-extract/issues"
   },
   "scripts": {
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --timeout=10000 && rm -rf ./coverage",
     "test": "grunt && mocha --reporter=spec --timeout=10000",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --timeout=10000 --check-leaks test/ && rm -rf ./coverage"
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --timeout=10000"
   },
   "keywords": [
     "extract",
