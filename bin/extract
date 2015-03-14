@@ -6,6 +6,7 @@
  * Module dependencies.
  */
  
+var chalk = require('chalk');
 var extract = require('../lib/extract');
 var program = require('commander');
 
@@ -18,6 +19,14 @@ program
   .description('extract file or folder from a repository')
   .action(function() {
     var cmds = process.argv.slice(2);
+
+    if (!cmds[1] || cmds[1].indexOf('/') < 0 && cmds[1].indexOf('@') < 0) {
+      return console.error(chalk.red('\nIncorrect repository URL or SSH.'));
+    }
+
+    console.log('\nStarting extraction of ' + chalk.blue(cmds[0]) + ' from ' + 
+                chalk.green(cmds[1])  + '...\n');
+
     extract(cmds[1], process.cwd(), cmds[0]);
   });
 
