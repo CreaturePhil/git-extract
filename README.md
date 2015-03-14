@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/CreaturePhil/git-extract.svg)](https://travis-ci.org/CreaturePhil/git-extract)
 [![Dependency Status](https://david-dm.org/CreaturePhil/git-extract.svg)](https://david-dm.org/CreaturePhil/git-extract) 
 [![devDependency Status](https://david-dm.org/CreaturePhil/git-extract/dev-status.svg)](https://david-dm.org/CreaturePhil/git-extract#info=devDependencies)
+[![Coverage Status](https://coveralls.io/repos/CreaturePhil/git-extract/badge.svg)](https://coveralls.io/r/CreaturePhil/git-extract)
 
 Extract files or folders from a Git repository.
 
