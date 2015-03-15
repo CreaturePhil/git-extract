@@ -1,6 +1,6 @@
 {
   "name": "git-extract",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extract files or folders from a Git repository.",
   "author": "Philip La <birkal@outlook.com>",
   "license": "MIT",
