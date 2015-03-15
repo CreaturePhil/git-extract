@@ -16,7 +16,7 @@ program
 
 program
   .command('*')
-  .description('extract file or folder from a repository')
+  .description('extract files or folders from a Git repository')
   .action(function() {
     var cmds = process.argv.slice(2);
 

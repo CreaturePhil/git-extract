@@ -7,6 +7,14 @@
 
 Extract files or folders from a Git repository.
 
+## Example
+
+```bash
+$ extract server.js creaturephil/alpha
+$ ls
+server.js
+```
+
 ## Installation
 
 ```bash
@@ -16,24 +24,17 @@ $ npm install -g git-extract
 ## Usage
 
 ```bash
-$ extract
-  Usage: extract [file|folder] [repositories]
+Usage: extract [file|folder] [repositories]
 
 
-  Commands:
+Commands:
 
-    *   extract file or folder from a repository
+  *   extract files or folders from a Git repository
 
-  Options:
+Options:
 
-    -h, --help     output usage information
-    -V, --version  output the version number
-```
-
-Example:
-
-```bash
-$ extract server.js creaturephil/alpha
+  -h, --help     output usage information
+  -V, --version  output the version number
 ```
 
 ## License
