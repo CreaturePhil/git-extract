@@ -36,6 +36,12 @@
   "engines": {
     "node": ">= 0.10.0"
   },
+  "files": [
+    "LICENSE",
+    "CHANGELOG.md",
+    "bin/",
+    "lib/"
+  ],
   "dependencies": {
     "chalk": "^1.0.0",
     "commander": "^2.7.1",
