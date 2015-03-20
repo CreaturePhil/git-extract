@@ -11,7 +11,7 @@ var extract = require('../lib/extract').extract;
 var program = require('commander');
 
 program
-  .version('0.1.0')
+  .version('0.2.2')
   .usage('[file|folder] [repositories]');
 
 program
